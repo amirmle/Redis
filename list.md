@@ -1,5 +1,5 @@
 
-create list
+## create list in redis
 
   LPUSH mylist 'hello' #left push
   

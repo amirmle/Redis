@@ -34,6 +34,7 @@ get by regex
 ---	
 	EXIST key1 key2 key3 ...
 ->number of existed keys - counts same keys
+
 ---
 set expire time for key
 
@@ -49,10 +50,14 @@ undo EXPIRE
 ---
 
 	RANDOMKEY
+	
 -> random-key
+
 ---
 	RENANE key newkey
+	
 ->OK
+
 ---
 	APPEND key value
 ---
@@ -60,6 +65,7 @@ decriment int
 
 	DECR key
 	DECRBY key 8
+	
 ->key-8
 
 incriment int

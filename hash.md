@@ -2,6 +2,14 @@
 
     HSET user1 name amir age 20 height 180 
 
+    HSET user1 gender man # add new field to hash
+
+set if not exists
+
+    HSETNX user1 user1 name ali
+
+->0
+
 ---
 
 ### get a feild
@@ -76,11 +84,15 @@
 
 ---
 
-### len of feilds
+### len of hash and fields
 
     HLEN user1
 
 ->3
+
+    HSTRLEN user1 name 
+
+->4
 
 ---
 

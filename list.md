@@ -1,5 +1,6 @@
 
 # list in redis
+ has order and can اhave duplicated value
 
     LPUSH mylist 'hello' #left push
   

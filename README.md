@@ -6,3 +6,5 @@ Note - How to use redis
 3) hash
 4) set
 5) sorted set
+6) HyperLogLog
+7) 

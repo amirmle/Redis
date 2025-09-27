@@ -7,4 +7,6 @@ Note - How to use redis
 4) set
 5) sorted set
 6) HyperLogLog
-7) 
+7) pub/sub
+8) transactions
+9) 

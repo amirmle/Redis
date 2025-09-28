@@ -39,3 +39,11 @@ https://redis.io/docs/latest/develop/using-commands/transactions/
     6) "17"
     7) (integer) 1
     8) (integer) 1
+
+### dicard mulit
+    DISCARD
+
+### watch - isolated 
+    WATCH key
+    UNWATCH
+    

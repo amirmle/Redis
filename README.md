@@ -9,4 +9,4 @@ Note - How to use redis
 6) HyperLogLog
 7) pub/sub
 8) transactions
-9) 
+9) persistence

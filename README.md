@@ -10,3 +10,7 @@ Note - How to use redis
 7) pub/sub
 8) transactions
 9) persistence
+10) bechmark
+11) database
+12) acl
+13) python 
